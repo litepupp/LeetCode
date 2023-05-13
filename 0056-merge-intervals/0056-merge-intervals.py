@@ -4,7 +4,7 @@ class Solution:
         intervals = sorted(intervals)
         prev = intervals[0]
         
-        i = 0
+        i = 1
         while i < len(intervals):
             a = prev
             b = intervals[i]
